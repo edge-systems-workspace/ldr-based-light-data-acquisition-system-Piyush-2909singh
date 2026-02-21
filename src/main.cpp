@@ -39,7 +39,7 @@ void loop() {
     Serial.print(ldrValue);
 
     // Threshold logic for brightness detection
-    // Typical values: < 300 Dark, 300-700 Dim, > 700 BrigHT
+    // Typical values: < 300 Dark, 300-700 Dim, > 700 BrighT
     if (ldrValue < 300) {
         Serial.println(" - Status: [DARK]");
     } else if (ldrValue < 700) {
